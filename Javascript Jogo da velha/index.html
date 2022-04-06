@@ -14,34 +14,39 @@
     <div class="container">
         <h2>Jogo da Velha</h2>
         <div id="tabuleiro">
-            <div id="console line1">
-                <div class="card c1"></div>
-                <div class="card c2"></div>
-                <div class="card c3"></div>
+            <div>
+                <div class="card" id="a1"  onclick="escolherCard(this.id)">
+                    <img src="" alt="">
+                </div> 
+                <div class="card" id="a2"  onclick="escolherCard(this.id)"></div> 
+                <div class="card" id="a3"  onclick="escolherCard(this.id)"></div> 
             </div>
-            <div class="linha"></div>
-            <div class="linha"></div>
-            <div id="console line2">
-                <div class="card c1"></div>
-                <div class="card c2"></div>
-                <div class="card c3"></div>
+            <div>
+                <div class="card" id="b1"  onclick="escolherCard(this.id)"></div> 
+                <div class="card" id="b2"  onclick="escolherCard(this.id)"></div> 
+                <div class="card" id="b3"  onclick="escolherCard(this.id)"></div> 
             </div>
-            <div class="linha"></div>
-            <div id="console line3">
-                <div class="card c1"></div>
-                <div class="card c2"></div>
-                <div class="card c3"></div>
+            <div>
+                <div class="card" id="c1" onclick="escolherCard(this.id)"></div> 
+                <div class="card" id="c2"  onclick="escolherCard(this.id)"></div> 
+                <div class="card" id="c3"  onclick="escolherCard(this.id)"></div> 
             </div>
         </div>
-        <div id="vez-jogador">
+
+
+        <div>
             Jogador:
+            <label for="" id="vez-jogador"></label>
         </div>
-        <div id="vencedor">
+        <div>
             Vencedor:
+            <label for=""  id="vencedor"></label>
         </div>
         <button id="btn-restart">
             Reiniciar
         </button>
     </div>
+
+    <script src="/assets/scripts/script.js"></script>
 </body>
 </html>

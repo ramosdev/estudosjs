@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto:wght@300;400;500;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -34,12 +37,20 @@ body {
 }
 
 .card {
+    
+    font-family: 'Patrick Hand', cursive;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #fff;
     width: 100px;
     height: 100px;
     margin: 4px;
     margin-bottom:7px;
+    font-size: 90px;
 }
+
 
 .card:hover {
     cursor: pointer;
